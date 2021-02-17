@@ -3,15 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-
-      <div class="main_nav">
+    <script>
+      function myFunction() {
+      var x = document.getElementById("main_nav");
+      if (x.className === "main_nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "main_nav";
+      }
+      }
+    </script>
+      <div class="main_nav" id="main_nav">
       <a href="#home" title="Home">Home</a>
       <a href="#projects" title="Projects">Projects</a>
       <a href="#cv" title="CV">CV</a>
       <a href="#contact" title="Contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 
 
