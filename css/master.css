@@ -97,7 +97,7 @@ background-color: #292b31;
 }
 
 @media screen and (max-width: 1020px) {
-  .main_nav.responsive {position: fixed; top: 100px;}
+  .main_nav.responsive {position: fixed; top: 6.1em;}
   .main_nav.responsive .icon {
     position: fixed;
     right: 0;
