@@ -1058,9 +1058,9 @@ input[type='checkbox'] {
 }
 
 .accordion .accordion-body {
-	margin-left: 3.125rem;
+	/* margin-left: 3.125rem; */
   overflow-y: auto;
-  max-height: 150px;
+  max-height: 180px;
 }
 
 .accordion img{
@@ -1662,7 +1662,8 @@ input[type='checkbox'] {
 	padding-top: 6.625rem;
 	padding-bottom: 5.625rem;
   text-align: center;
-	/* background-color: #06050f; */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('../img/header-backgrounds.png') center center no-repeat;
+
 }
 
 .form-2 .text-container {
@@ -2174,6 +2175,9 @@ a:hover.back-to-top {
       max-height: none;
 
   }
+  ::-webkit-scrollbar:vertical {
+   width: 10px;
+}
 	/* end of details 1 */
 
 
