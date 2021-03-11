@@ -1691,7 +1691,7 @@ input[type='checkbox'] {
 .form-2 .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	/* color: #14bf98; */
+	color: #14bf98;
 }
 
 .form-2 .list-unstyled .fa-phone {
@@ -1714,13 +1714,11 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 3.25rem;
 	height: 3.25rem;
-	/* background: url('../images/hexagon-green.svg') center center no-repeat; */
 	background-size: 3.25rem 3.25rem;
 	transition: all 0.2s ease;
 }
 
 .form-2 .fa-stack:hover .hexagon {
-	/* background: url('../images/hexagon-white.svg') center center no-repeat; */
 	background-size: 3.25rem 3.25rem;
 }
 
