@@ -1387,7 +1387,7 @@ input[type='checkbox'] {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	width: 50%;
+	width: 25%;
 	background-color: #000; /* to hide 1px white margin in IE */
   border-radius: 20px;
 }
@@ -1422,11 +1422,11 @@ input[type='checkbox'] {
 .filter .element-item .element-item-overlay span {
 	position: absolute;
 	z-index: 3;
-	top: 42%;
+	top: 22%;
 	right: 0;
 	left: 0;
 	color: #fff;
-	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
+	font: 700 0.625rem/1.625rem "Montserrat", sans-serif;
 
 }
 
@@ -2391,6 +2391,7 @@ a:hover.back-to-top {
 
 	.filter .element-item .element-item-overlay span {
 		top: 45%;
+    font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
 	}
 	/* end of projects */
 
