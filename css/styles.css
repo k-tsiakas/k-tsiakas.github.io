@@ -91,13 +91,13 @@ h1 {
 h2 {
 	/* color: #14bf98; */
   color: #beaa16;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	font: 700 1.75rem/2.125rem 'New Tegomin', serif;
 }
 
 h3 {
 	/* color: #4316be; */
   color: #beaa16;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	font: 700 1.375rem/1.75rem 'New Tegomin', serif;
 }
 
 h4 {
@@ -118,6 +118,7 @@ h6 {
 a {
 	color: #dfe5ec;
 	text-decoration: underline;
+  font-family: 'New Tegomin', serif;
 }
 
 a:hover {
