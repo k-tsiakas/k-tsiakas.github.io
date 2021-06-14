@@ -216,11 +216,9 @@
       <!-- Projects -->
   	<div id="projects" class="filter">
   		<div class="container">
-              <div class="row">
-                  <div class="col-lg-12">
+
                       <h2>Projects</h2>
-                  </div> <!-- end of col -->
-              </div> <!-- end of row -->
+
               <div class="row">
                   <div class="col-lg-12">
                       <!-- Filter -->
@@ -232,8 +230,14 @@
                       </div> <!-- end of button group -->
                       <div class="grid">
                           <div class="element-item devops">
-                              <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>CI/CD with Jenkins from Git to Private Docker Registry</span></div><img src="img/project1.png" style="background:#fff"alt="alternative"></a>
+                              <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>CI/CD with Jenkins from Git to Private Docker Registry</span></div><img src="img/jenkins-project.png" style="background:#fff"alt="alternative"></a>
                           </div>
+                          <div class="element-item software">
+                              <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Django Project deployed in Docker</span></div><img src="img/django-project.png" style="background:#fff"alt="alternative"></a>
+                          </div>
+                      </div> <!-- end of grid -->
+                      <div class="grid">
+
 
                       </div> <!-- end of grid -->
                       <!-- end of filter -->
@@ -251,7 +255,7 @@
           <div class="row">
               <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
               <div class="col-lg-8">
-                  <img class="img-fluid" src="img/project1.png" alt="alternative">
+                  <img class="img-fluid" src="img/jenkins-project.png" alt="alternative">
               </div> <!-- end of col -->
               <div class="col-lg-4">
                   <h3>CI/CD with Jenkins from Git to Private Docker Registry</h3>
@@ -261,6 +265,23 @@
                     As a result, we have <b>4 containers:</b> docker-registry, portainer(for docker monitoring), jenkins and python-flask. All within the same docker network.
                   </p>
                   <a class="btn-solid-reg" href="https://github.com/k-tsiakas/jenkins-from-git-to-docker-registry" target="_blank">View Repo</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a>
+              </div> <!-- end of col -->
+          </div> <!-- end of row -->
+      </div> <!-- end of lightbox-basic -->
+      <!-- end of lightbox -->
+      <!-- Lightbox -->
+      <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+          <div class="row">
+              <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+              <div class="col-lg-8">
+                  <img class="img-fluid" src="img/django-project.png" alt="alternative">
+              </div> <!-- end of col -->
+              <div class="col-lg-4">
+                  <h3>Django Project deployed in Docker</h3>
+                  <p class="p-project"> This application implements user authentication and post management.
+                    A user can create, edit, delete his own posts but also view and download other users' posts.
+                    Post can be either a text or a media or just a file. Deployed both in virtualenv and docker.</p>
+                  <a class="btn-solid-reg" href="https://github.com/k-tsiakas/django-community" target="_blank">View Repo</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a>
               </div> <!-- end of col -->
           </div> <!-- end of row -->
       </div> <!-- end of lightbox-basic -->
