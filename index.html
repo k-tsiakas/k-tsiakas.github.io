@@ -235,6 +235,9 @@
                           <div class="element-item software">
                               <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Django Project deployed in Docker</span></div><img src="img/django-logo.png" style="background:#fff"alt="alternative"></a>
                           </div>
+                          <div class="element-item software">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>Monitor Your Top Processes and Docker Logs in Linux with Grafana</span></div><img src="img/topprocesses.png" style="background:#fff"alt="alternative"></a>
+                        </div>
                       </div> <!-- end of grid -->
                       <div class="grid">
 
@@ -286,6 +289,28 @@
           </div> <!-- end of row -->
       </div> <!-- end of lightbox-basic -->
       <!-- end of lightbox -->
+      <!-- Lightbox -->
+      <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="img/topprocesses.png" alt="alternative">
+                <img class="img-fluid" src="img/logs.png" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Monitor Your Top Processes and Docker Logs in Linux with Grafana</h3>
+                <p class="p-project"> This repository implements the following:
+
+                    --Deploy Grafana, Prometheus, PushGateway, Loki, Promtail all together in docker compose under the same bridge network
+                    -- Set a bash script as a systemd service in your linux node
+                    -- Create a script which fetches metrics with 'ps aux' every second and post them to Prometheus with pushgateway in order to visualize them
+                    -- Logging you docker containers and your system logs in Grafana with Loki
+                    -- Grafana Dashboards</p>
+                <a class="btn-solid-reg" href="https://github.com/k-tsiakas/Monitoring" target="_blank">View Repo</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
 
 
     <!-- Contact -->
