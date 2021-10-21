@@ -1064,15 +1064,7 @@ input[type='checkbox'] {
   max-height: 180px;
 
 }
-#collapseThree .accordion-body{
-  background-color: #eee;
-  max-width: 75%;
-  margin: 0 auto;
-  border-radius: 30px;
-}
-#collapseThree .accordion-body p{
-  color: #1663BE;
-}
+
 .accordion img{
   height:2.5rem;
   border-radius: 5px;
