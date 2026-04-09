@@ -1026,6 +1026,18 @@ input[type='checkbox'] {
 	color: var(--text-muted);
 }
 
+.education-cards .edu-card .cert-link {
+	display: inline-block;
+	margin-top: 0.5rem;
+	font-size: 0.95rem;
+	color: var(--accent-primary);
+	text-decoration: underline;
+}
+
+.education-cards .edu-card .cert-link:hover {
+	color: #ffffff;
+}
+
 
 /************************/
 /*     07. Services     */
